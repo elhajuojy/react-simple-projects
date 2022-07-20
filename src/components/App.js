@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+
 
 
 
@@ -7,7 +7,7 @@ import Card from "./Card";
 function App() {
     return (
         <div>
-            <Card />
+
         </div>
 
     )
