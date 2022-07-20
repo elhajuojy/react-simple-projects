@@ -1,11 +1,13 @@
 import React from "react";
+import Card from "./Card";
+
 
 
 
 function App() {
     return (
         <div>
-            <h1>Dream basic react app </h1>
+            <Card />
         </div>
 
     )
