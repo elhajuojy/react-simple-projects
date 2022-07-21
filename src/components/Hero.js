@@ -5,8 +5,6 @@ const Hero = () => {
     return (
         <div className='hero'>
             <img src={hero_image} alt='hero_image' className='hero--img' />
-
-
         </div>
     );
 };

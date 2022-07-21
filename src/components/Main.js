@@ -13,9 +13,6 @@ const main = () => {
                 <Card img={imag1} content='Life lessons with Katie Zaferes' price='$136' star='5.0(6)' />
                 <Card img={imag3} content='Learn wedding photography' price='$125' star='50(30)' />
                 <Card img={imag2} content='Group Mountain Biking' price='$50' star='4.8(2)' />
-
-
-
             </div>
         </div>
     );
