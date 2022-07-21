@@ -30,15 +30,6 @@ var data = [
         description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
         imageUrl: img3
     },
-    {
-        title: "Sydney Opera House",
-        location: "AUSTRALIA",
-        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        startDate: "27 May, 2021 ",
-        endDate: " 8 Jun, 2021",
-        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
-        imageUrl: img2
-    },
 
 ]
 
