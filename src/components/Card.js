@@ -26,10 +26,6 @@ const Card = (props) => {
                     height: 1
                 }}
             />
-
-
-
-
         </div>
     );
 };
