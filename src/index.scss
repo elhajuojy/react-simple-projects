@@ -4,6 +4,7 @@ $check-answer-color :#D6DBF5;
 $check-answer-disabled-color :#F8BCBC;
 $right-answer-color :#94D7A2;
 $btn-answer-border-color :#4D5B9E;
+$background-color:#F5F7FB;
 
 
 
@@ -14,4 +15,57 @@ $btn-answer-border-color :#4D5B9E;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
+    position: relative;
+    background-color: $background-color;
+    color: $primary-color;
+
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    background-image: url('./images/blobs2.svg'), url('./images/blob1.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: right, left;
+    background-position-y: top, bottom;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p,
+    h1,
+    button {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    button {
+        width: 300px;
+        height: 60px;
+        font-size: 25px;
+    }
+}
+
+.btn-primary {
+    color: $background-color;
+    background-color: $btn-primary-color;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
 }
