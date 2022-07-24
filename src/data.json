@@ -1,0 +1,62 @@
+[
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "This movie contains the quote, &quot;What we&#039;ve got here is a failure to communicate.&quot;",
+        "correct_answer": "Cool Hand Luke",
+        "incorrect_answers": [
+            "Bonnie and Clyde",
+            "The Graduate",
+            "In the Heat of the Night"
+        ]
+    },
+    {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What Nationality is D.Va from Overwatch?",
+        "correct_answer": "Korean",
+        "incorrect_answers": [
+            "Japanese",
+            "Chinese",
+            "Vietnamese "
+        ]
+    },
+    {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The main protagonist of the fifth part of JoJo&#039;s Bizarre Adventure is which of the following?",
+        "correct_answer": "Giorno Giovanna",
+        "incorrect_answers": [
+            "Guido Mista",
+            "Jonathan Joestar",
+            "Joey JoJo"
+        ]
+    },
+    {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these songs does NOT play during the Ruins segments of the 2015 game &quot;Undertale&quot;?",
+        "correct_answer": "Another Medium",
+        "incorrect_answers": [
+            "Anticipation",
+            "Unnecessary Tension",
+            "Ruins"
+        ]
+    },
+    {
+        "category": "Science & Nature",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the molecular formula of the active component of chili peppers(Capsaicin)?",
+        "correct_answer": "C18H27NO3",
+        "incorrect_answers": [
+            "C21H23NO3",
+            "C6H4Cl2",
+            "C13H25NO4"
+        ]
+    }
+]

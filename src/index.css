@@ -6,10 +6,7 @@
   position: relative;
   background-color: #F5F7FB;
   color: #293264;
-}
-
-body {
-  position: relative;
+  transition: 0.3s ease-in-out;
 }
 
 .container {
@@ -26,7 +23,6 @@ body {
   justify-content: center;
 }
 .container p,
-.container h1,
 .container button {
   margin-bottom: 20px;
 }
@@ -34,13 +30,26 @@ body {
   font-size: 30px;
   margin-bottom: 30px;
 }
-.container h1 {
+
+h1 {
   font-size: 60px;
+  margin-bottom: 10px;
 }
-.container button {
-  width: 300px;
-  height: 60px;
-  font-size: 25px;
+
+.quiz--btn--answer {
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  border-radius: 10px;
+  width: 160px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.quiz--btn--answer--div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-primary {
@@ -51,4 +60,58 @@ body {
   height: 30px;
   border: none;
   cursor: pointer;
+  width: 260px;
+  height: 70px;
+  font-size: 25px;
+}
+
+.Quiz {
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+  align-items: left;
+  font-weight: bold;
+  font-size: 30px;
+}
+.Quiz button {
+  border: none;
+}
+.Quiz .questions {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.question-text {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.question p {
+  color: #293264;
+}
+
+.answers {
+  margin-bottom: 10px;
+}
+.answers button {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  border: #4D5B9E 2px solid;
+  font-weight: bold;
+  color: #4D5B9E;
+}
+.answers .btn-clicked {
+  background-color: #D6DBF5;
+  border: #D6DBF5 2px solid;
+}
+
+hr {
+  color: #4D5B9E;
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */

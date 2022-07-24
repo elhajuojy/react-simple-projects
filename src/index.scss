@@ -18,12 +18,11 @@ $background-color:#F5F7FB;
     position: relative;
     background-color: $background-color;
     color: $primary-color;
-
+    transition: 0.3s ease-in-out;
 }
 
-body {
-    position: relative;
-}
+
+
 
 .container {
     background-image: url('./images/blobs2.svg'), url('./images/blob1.svg');
@@ -39,7 +38,6 @@ body {
     justify-content: center;
 
     p,
-    h1,
     button {
         margin-bottom: 20px;
     }
@@ -49,15 +47,35 @@ body {
         margin-bottom: 30px;
     }
 
-    h1 {
-        font-size: 60px;
-    }
 
-    button {
-        width: 300px;
-        height: 60px;
-        font-size: 25px;
-    }
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+.quiz--btn--answer {
+    color: $background-color;
+    background-color: $btn-primary-color;
+    border-radius: 10px;
+    width: 160px;
+    // width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    // font-size: 25px;
+
+
+}
+
+.quiz--btn--answer--div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-primary {
@@ -68,4 +86,67 @@ body {
     height: 30px;
     border: none;
     cursor: pointer;
+    width: 260px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.Quiz {
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    align-items: left;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    button {
+        border: none;
+    }
+
+    .questions {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+.question-text {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.question {
+
+
+    p {
+        color: $primary-color;
+    }
+}
+
+.answers {
+    button {
+        margin: 10px;
+        border-radius: 15px;
+        padding: 10px;
+        cursor: pointer;
+        border: $btn-answer-border-color 2px solid;
+        font-weight: bold;
+        color: $btn-answer-border-color;
+    }
+
+    .btn-clicked {
+        background-color: $check-answer-color;
+        border: $check-answer-color 2px solid;
+    }
+
+    margin-bottom: 10px;
+}
+
+hr {
+    color: #4D5B9E;
+    opacity: 0.5;
 }
