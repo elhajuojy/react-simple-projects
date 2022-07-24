@@ -1,1 +1,1 @@
-# Getting my travel journal. Card with React js and scss
+# Getting Quizzical app . Card with React js and scss
