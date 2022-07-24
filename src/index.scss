@@ -1,82 +1,17 @@
-@import 'vars';
+$btn-primary-color :#4D5B9E;
+$primary-color :#293264;
+$check-answer-color :#D6DBF5;
+$check-answer-disabled-color :#F8BCBC;
+$right-answer-color :#94D7A2;
+$btn-answer-border-color :#4D5B9E;
+
+
+
+
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: $body-font;
-}
-
-.nav {
-    display: flex;
-    background-color: $nav-color;
-    justify-content: center;
-    height: 60px;
-    text-align: center;
-    padding: 10px;
-
-    p {
-        padding-left: 20px;
-        color: white;
-        text-align: start;
-        font-size: 20px;
-        padding: 0;
-        padding-left: 10px;
-        padding-top: 5px;
-        margin: 0;
-    }
-
-
-}
-
-
-.nav--logo {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    margin-top: 3px;
-}
-
-.card-container {
-    margin: 20px;
-    margin-left: 40px;
-    margin-top: 40px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.card--img-container {
-    height: 100%;
-
-    img {
-        object-fit: contain;
-    }
-}
-
-
-.card--header {
-
-    display: flex;
-    gap: 10px;
-
-    img {
-        width: 10px;
-    }
-}
-
-h1 {
-    margin-bottom: 7px;
-    margin-top: 7px;
-    color: $background-color;
-    opacity: 0.9;
-}
-
-b {
-    opacity: 0.8;
-}
-
-p {
-    color: $background-color;
+    font-family: 'Karla', sans-serif;
 }
