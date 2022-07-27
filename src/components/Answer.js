@@ -1,17 +1,17 @@
 import React from 'react';
 
 const Answer = (props) => {
-    const [click, chnageClick] = React.useState(false);
-    function handleClick() {
-        console.log(props.text)
-        console.log(click)
-        chnageClick((prev) => prev = !prev)
-    }
+    const [isDisabled, setDisabled] = React.useState(true)
 
     return (
+        console.log(props.isfinsh),
 
-        <button className={click ? "btn-clicked" : ""}
-            onClick={handleClick}
+        <button
+            className={props.click === props.text ? "btn-clicked" : ""}
+            onClick={props.handelCheckAnswer(props.text)}
+            value={props.text}
+        // todo:i need to do disabled 
+        // disabled
         >
             {
                 props.text

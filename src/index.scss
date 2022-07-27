@@ -21,8 +21,9 @@ $background-color:#F5F7FB;
     transition: 0.3s ease-in-out;
 }
 
-
-
+// body {
+//     overflow: hidden;
+// }
 
 .container {
     background-image: url('./images/blobs2.svg'), url('./images/blob1.svg');
@@ -57,16 +58,19 @@ h1 {
 }
 
 
-
 .quiz--btn--answer {
     color: $background-color;
     background-color: $btn-primary-color;
     border-radius: 10px;
     width: 160px;
+    gap: 10px;
     // width: 100px;
     height: 50px;
     border: none;
     cursor: pointer;
+    margin-left: 10px;
+
+
     // font-size: 25px;
 
 
